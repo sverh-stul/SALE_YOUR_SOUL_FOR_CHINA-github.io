@@ -1,0 +1,48 @@
+body{
+	font-family: Arial;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	margin: 0;
+
+	background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQse_ci8K0AWph7-hD1xNs5zAe3egKL3efO2Q&s');
+	background-repeat: no-repeat;
+    background-size: cover;
+}
+.registration-container{
+	background-color: yellow;
+	padding: 20px;
+	border-radius: 10px;
+	width: 100%;
+	max-width: 400px;
+}
+.registration-container h2{
+	text-align: center;
+	margin-bottom: 20px;
+}
+form label{
+	display: block;
+	margin-bottom: 5px;
+	font-weight: bold;
+}
+form input{
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 15px;
+	border:1px solid black;
+	border-radius: 5px;
+	font-size: 14px;
+
+}
+form button{
+	width: 100%;
+	padding: 10px;
+	background-color: red;
+	color: yellow;
+	border: none;
+	cursor: pointer;
+}
+form button:hover{
+	background-color: green
+}
